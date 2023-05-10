@@ -6,7 +6,7 @@ const TodoLayoutStyle = styled.div`
 
   background: white;
   border-radius: 16px;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 0 auto;
   padding: 5px;
   margin-top: 100px;
