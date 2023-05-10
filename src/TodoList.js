@@ -8,7 +8,7 @@ const TodoListStyle = styled.div`
   padding-bottom: 48px;
   overflow-y: auto;
 `;
-function TodoList({ onRemove, todolist, onToggle }) {
+function TodoList({ onEdit, onRemove, todolist, onToggle }) {
   return (
     <TodoListStyle>
       {todolist.map((item) => (
@@ -17,6 +17,7 @@ function TodoList({ onRemove, todolist, onToggle }) {
           id={item.id}
           done={item.done}
           text={item.text}
+          onEdit={onEdit}
           onRemove={onRemove}
           onToggle={onToggle}
         />
